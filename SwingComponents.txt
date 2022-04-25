@@ -1,0 +1,22 @@
+Tree
+	- treeview
+	- expand / collapse ( Windows explorer)
+
+	Property:
+		Model
+			Root	(without space
+			child	(one space)
+			  sub child ( double space)
+				and so on
+
+Progressbar
+	- to show the work progress  (% of completion)
+	properties:
+		minimum : 0
+		maximum : 100
+		stringPaint:true
+		
+	loop
+	{
+	 jprogressBar1.setValue(val);
+	}
